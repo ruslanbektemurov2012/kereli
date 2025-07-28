@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .div{
+        width: 100%;
+        background-color:  rgb(53, 53, 107);
+        color: white;
+    }
+    .nav-link{
+        color: white;
+    }
+</style>
+<body>
+    <div class="div">
+<ul class="nav justify-content-center">
+    
+  <li class="nav-item ">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Team</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Blog</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Services</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color: white;">Disabled</a>
+  </li>
+  <nav class="nav nav-pills nav-justified">
+  <a class="nav-item nav-link active" href="#" style="border-radius: 50px;">Get Started</a>
+</nav>
+</ul><br><br><br><br><br><br><br><br>
+<div class="nav container-xl">
+    <div class="col">
+        <h1>Better Solutions For Your <br> Business</h1>
+        <h3 style="color: darkgrey;">We are team of talented designers making websites with <br> Bootstrap</h3>
+<button type="button" class="btn btn-primary"  style="border-radius: 50px;">
+  Get Started<span class="badge badge-light"></span>
+  <span class="sr-only">Get Started</span>
+</button>
+<button type="button" class="btn btn-primary" style="background-color: rgb(64, 64, 204); border-radius: 50px;">
+    <i class="fa-solid fa-circle-play"></i>
+  Watch Video <span class="badge badge-light"></span>
+  <span class="sr-only">unread messages</span>
+</button>
+    </div>
+    <div class="img">
+        <img class="img-fluid" src="https://bootstrapmade.com/content/demo/Arsha/assets/img/hero-img.png" alt="">
+    </div>
+</div>
+    </div>
+<br>
+<div class="xl container-xl" >
+      <center>
+    <div class="col ">
+          
+            <h1 style="color: rgb(36, 36, 77); ">ABOUT US</h1>
+           
+            <br>
+        </div>
+        </center>
+    <div class="row ">
+        
+        <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.</p>
+            <i class="fa-solid fa-check">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</i><br><br>
+            <i class="fa-solid fa-check">Duis aute irure dolor in reprehenderit in voluptate velit.</i><br><br>
+
+
+<i class="fa-solid fa-check">Ullamco laboris nisi ut aliquip ex ea commodo</i>
+        </div><br><br>
+        <div class="col1 ">
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor <br> in reprehenderit in  voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id  <br>est <br>
+         <button type="button" class="btn btn-outline-primary">Read More</button>
+        </div>
+    </div> 
+     
+          
+</div><br><br>
+  <div class="col">   <h4 style="color: rgb(52, 52, 143);">Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odit, amet velit voluptates placeat laboriosam ullam.</p></div>
+ <div class="row container-fluid">
+  
+         <div class="col">
+            <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <p style="color: rgba(0, 0, 255, 0.37);"> <span style="color: blue;">01</span> Non consectetur a erat nam at lectus urna duis?</p>
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <p style="color:rgba(0, 0, 255, 0.37) ;" > <span style="color: blue;">02</span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</p>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+          <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <p style="color:rgba(0, 0, 255, 0.37) ;" > <span style="color: blue;">03</span> Dolor sit amet consectetur adipiscing elit pellentesque?</p>
+</button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+         </div>
+         <div class="sm">
+            <img style="width: 100%; height: 50vh;" class="img-thumbnail" src="https://bootstrapmade.com/content/demo/Arsha/assets/img/why-us.png" alt="">
+         </div>
+  </div>
+   <div class="container">
+<div class="row d-flex">
+    <div class="col-md">
+        <img class="img-thumbnail" src="https://bootstrapmade.com/content/demo/Arsha/assets/img/illustration/illustration-10.webp" alt="">
+    </div>
+   <div class="col-md">
+    <h4>Voluptatem dignissimos provident quasi corporis voluptas</h4>
+    <p style="color: darkgrey;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem exercitationem dolorem  <br>ex qui sunt assumenda.</p>
+   <p>HTML</p>
+   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+</div>
+<p>CSS</p>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+</div>
+<p>JavaScript</p>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+<p>Photoshop</p>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+</div>
+</div>
+</div>
+</div><br><br><br>
+<div class="container ">
+     <div class="col">
+            <center>
+            <h4>SERVICES</h4>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </center>
+        </div><br><br>
+    <div class="row d-flex" >
+       
+
+            <div class="card" style="width: 16rem;">
+  <div class="card-body">
+    <h5 class="card-title">Lorem, ipsum.</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 16rem;">
+  <div class="card-body">
+    <h5 class="card-title">Sed ut perspici</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  </div>
+</div>
+<div class="card" style="width: 16rem;">
+  <div class="card-body">
+    <h5 class="card-title">Magni Dolores</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+ 
+  </div>
+</div>
+<div class="card" style="width: 16rem;">
+  <div class="card-body">
+    <h5 class="card-title">Nemo Enim</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+  </div>
+</div>
+
+
+    </div>
+</div>
+</body>
+</html>
+
